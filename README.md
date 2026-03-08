@@ -1,2 +1,2 @@
-# rungame
+# Rungame
 Game
