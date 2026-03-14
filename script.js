@@ -15,7 +15,7 @@ var checkDead = setInterval(function(){
     parseInt(window.getComputedStyle(character).
     getPropertyValue("top"));
     var blockleft =
-    parseInt(window.getComputedStyle(character).
+    parseInt(window.getComputedStyle(block).
     getPropertyValue("left")); 
     if(blockleft<20 && blockleft>0 && characterTop>=130){
         block.style.animation = "none";
